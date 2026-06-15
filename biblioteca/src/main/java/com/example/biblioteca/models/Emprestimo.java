@@ -30,7 +30,7 @@ public class Emprestimo implements Serializable {
     @JoinColumn(name = "livro_id", nullable = false)
     private Livros livro;
 
-    // 📅 Data que pegou
+    // Data que pegou
     @Column(nullable = false)
     private LocalDate dataEmprestimo;
 
